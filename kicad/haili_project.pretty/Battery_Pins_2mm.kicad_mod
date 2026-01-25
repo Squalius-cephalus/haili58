@@ -1,0 +1,297 @@
+(footprint "Battery_Pins_2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.11 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f88896b2-6c6a-4d43-8712-ad161f48eb81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Pins_2mm"
+		(at 0 4.11 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cfd4eb2-435a-4bad-9b15-f1723942ee8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b870bc3d-c244-46c8-95d0-6cbd27906dee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db9431f2-41d8-4c97-8592-178cf203c941")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 1.6 4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "19cca3d1-6cb2-4ee7-8468-0464cfa32bba")
+	)
+	(fp_rect
+		(start -0.95 -0.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "376928db-02cd-455f-bbef-7a21dc9763b0")
+	)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 1.6 4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "66098137-dcb3-4d04-b985-3403fd26a617")
+	)
+	(fp_rect
+		(start -0.95 -0.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "7c10534d-eabe-4226-b803-2b46fff236ff")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2185a8f4-68bd-43d0-a1d9-f618c524860a")
+	)
+	(fp_line
+		(start -1.5 3.5)
+		(end 1.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28299f85-593d-439a-a78d-fd5e4b3fe830")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36af781d-c591-4134-8689-1f6dcdead71e")
+	)
+	(fp_line
+		(start 1.5 3.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee657ece-29fb-4aa4-9764-3ef396ca3eb9")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d00d310e-1ba7-4139-917e-fc87f921d811")
+	)
+	(fp_line
+		(start -1 3)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41a709ea-0903-4ce1-8ba3-f64795b95568")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b45eeb4d-cba1-4180-8311-52c492ea7063")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54a6391e-a063-4bcb-9bbb-4a87cf483872")
+	)
+	(fp_line
+		(start 1 3)
+		(end -1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff700fb5-a690-4b40-ad7c-f1b54ae1320d")
+	)
+	(fp_text user "BATTERY"
+		(at -1 4.2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "951d8c84-b1f4-40cf-b7e0-4385e95de730")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0.6 4.2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a970fcb4-66af-4a0e-b5ff-454f7a7c44cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -0.6 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb220aeb-d5fd-4f4a-a0cf-0ec9f0a3aa73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -0.6 -2 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "01fa36f4-d6b6-4ef0-97c4-bc02a4618707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "BATTERY"
+		(at -1 -2.2 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0f70416d-4005-44d2-9668-bd1e3e9301c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "-"
+		(at 0.6 2.85 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2115b941-0011-4ca3-9543-f48f21eec83a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eee6d9a0-8d51-419e-9863-ecf3e31784fb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d37985f8-570f-46fa-ba9f-98df540c8366")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x02_P2.00mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
