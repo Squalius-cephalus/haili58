@@ -3,7 +3,7 @@
 
 # work in progress
 
-Haili58 is a RP2040 Zero based 54-key column staggered split keyboard. PCB uses hotswap sockets. Design is inspired from REVIUNG41 and Corne keyboards.
+Haili58 is a nrf52840 based 58-key column staggered split keyboard. PCB uses hotswap sockets. Design is inspired from REVIUNG41 and Corne keyboards.
 
 PCB is designed for MX and Gateron low profile key switches.
 
